@@ -1,0 +1,20 @@
+#ReactorKit
+github "https://github.com/ReactorKit/ReactorKit"
+
+#Reactive
+github "ReactiveX/RxSwift" ~> 5.0
+github "RxSwiftCommunity/RxOptional"
+github "RxSwiftCommunity/RxDataSources" ~> 4.0
+
+#DI
+github "Swinject/Swinject" == 2.6.2
+github "Swinject/SwinjectAutoregistration" ~> 2.5
+github "Swinject/SwinjectStoryboard" == 2.2.0
+
+#Image
+github "SDWebImage/SDWebImage"
+github "airbnb/lottie-ios"
+github "kirualex/SwiftyGif" == 5.2
+
+#UI
+github "xmartlabs/XLPagerTabStrip" ~> 9.0
