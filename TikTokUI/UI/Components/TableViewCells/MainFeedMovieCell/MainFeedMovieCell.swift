@@ -7,3 +7,20 @@
 //
 
 import Foundation
+import UIKit
+
+final class MainFeedMovieCell: UITableViewCell {
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        setupRx()
+    }
+
+    private func setupRx() {
+
+    }
+
+    func setCellContents() {
+
+    }
+}
