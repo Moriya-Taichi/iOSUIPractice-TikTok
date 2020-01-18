@@ -49,6 +49,8 @@
 		8D392E5823D36EE70075285D /* ReactorKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8D392E3523D36EE60075285D /* ReactorKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8D392E5923D36EE80075285D /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D392E3623D36EE60075285D /* Differentiator.framework */; };
 		8D392E5A23D36EE80075285D /* Differentiator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8D392E3623D36EE60075285D /* Differentiator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8D392E5F23D389350075285D /* MainFeedMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D392E5E23D389350075285D /* MainFeedMovieCell.swift */; };
+		8D392E6223D389590075285D /* MainFeedMovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D392E6123D389590075285D /* MainFeedMovieCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +135,8 @@
 		8D392E3523D36EE60075285D /* ReactorKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactorKit.framework; path = Carthage/Build/iOS/ReactorKit.framework; sourceTree = "<group>"; };
 		8D392E3623D36EE60075285D /* Differentiator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differentiator.framework; path = Carthage/Build/iOS/Differentiator.framework; sourceTree = "<group>"; };
 		8D392E5D23D370C00075285D /* CarthageInputFileLists.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = CarthageInputFileLists.xcfilelist; sourceTree = "<group>"; };
+		8D392E5E23D389350075285D /* MainFeedMovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFeedMovieCell.swift; sourceTree = "<group>"; };
+		8D392E6123D389590075285D /* MainFeedMovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainFeedMovieCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -292,6 +296,7 @@
 		8D392E1723D31AF10075285D /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				8D392E6023D3893F0075285D /* MainFeedMovieCell */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -375,6 +380,15 @@
 				8D392E2823D36EE60075285D /* XLPagerTabStrip.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D392E6023D3893F0075285D /* MainFeedMovieCell */ = {
+			isa = PBXGroup;
+			children = (
+				8D392E5E23D389350075285D /* MainFeedMovieCell.swift */,
+				8D392E6123D389590075285D /* MainFeedMovieCell.xib */,
+			);
+			path = MainFeedMovieCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -484,6 +498,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D392E2323D355030075285D /* FeedTabView.storyboard in Resources */,
+				8D392E6223D389590075285D /* MainFeedMovieCell.xib in Resources */,
 				8D392DED23D318E90075285D /* LaunchScreen.storyboard in Resources */,
 				8D392E2123D32BE50075285D /* FeedView.storyboard in Resources */,
 				8D392DEA23D318E90075285D /* Assets.xcassets in Resources */,
@@ -537,6 +552,7 @@
 				8D392DE523D318E70075285D /* ViewController.swift in Sources */,
 				8D392DE123D318E70075285D /* AppDelegate.swift in Sources */,
 				8D392DE323D318E70075285D /* SceneDelegate.swift in Sources */,
+				8D392E5F23D389350075285D /* MainFeedMovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
