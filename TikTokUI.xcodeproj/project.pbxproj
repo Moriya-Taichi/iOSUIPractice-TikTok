@@ -15,6 +15,8 @@
 		8D392DED23D318E90075285D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D392DEB23D318E90075285D /* LaunchScreen.storyboard */; };
 		8D392DF823D318E90075285D /* TikTokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D392DF723D318E90075285D /* TikTokUITests.swift */; };
 		8D392E0323D318E90075285D /* TikTokUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D392E0223D318E90075285D /* TikTokUIUITests.swift */; };
+		8D392E2123D32BE50075285D /* FeedView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D392E2023D32BE50075285D /* FeedView.storyboard */; };
+		8D392E2323D355030075285D /* FeedTabView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D392E2223D355030075285D /* FeedTabView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8D392DFE23D318E90075285D /* TikTokUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikTokUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D392E0223D318E90075285D /* TikTokUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokUIUITests.swift; sourceTree = "<group>"; };
 		8D392E0423D318E90075285D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D392E2023D32BE50075285D /* FeedView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = FeedView.storyboard; path = TikTokUI/UI/FeedView.storyboard; sourceTree = SOURCE_ROOT; };
+		8D392E2223D355030075285D /* FeedTabView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeedTabView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +175,8 @@
 		8D392E1523D31AD40075285D /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				8D392E2023D32BE50075285D /* FeedView.storyboard */,
+				8D392E2223D355030075285D /* FeedTabView.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -352,7 +358,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D392E2323D355030075285D /* FeedTabView.storyboard in Resources */,
 				8D392DED23D318E90075285D /* LaunchScreen.storyboard in Resources */,
+				8D392E2123D32BE50075285D /* FeedView.storyboard in Resources */,
 				8D392DEA23D318E90075285D /* Assets.xcassets in Resources */,
 				8D392DE823D318E70075285D /* Main.storyboard in Resources */,
 			);
