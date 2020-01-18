@@ -1,0 +1,36 @@
+#  CarthageInputFileLists.xcfilelist
+#  TikTokUI
+#
+#  Created by Mori on 2020/01/19.
+#  Copyright © 2020 Mori. All rights reserved.
+
+#ReactorKit
+$(SRCROOT)/Carthage/Build/iOS/ReactorKit.framework
+$(SRCROOT)/Carthage/Build/iOS/ReactorKitRuntime.framework
+
+#ReactiveExtension
+$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework
+$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework
+$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework
+
+$(SRCROOT)/Carthage/Build/iOS/RxDataSources.framework
+$(SRCROOT)/Carthage/Build/iOS/RxOptional.framework
+
+#DI
+$(SRCROOT)/Carthage/Build/iOS/Swinject.framework
+$(SRCROOT)/Carthage/Build/iOS/SwinjectAutoregistration.framework
+$(SRCROOT)/Carthage/Build/iOS/SwinjectStoryboard.framework
+
+#Utility
+$(SRCROOT)/Carthage/Build/iOS/Differentiator.framework
+
+#Image
+$(SRCROOT)/Carthage/Build/iOS/SDWebImage.framework
+$(SRCROOT)/Carthage/Build/iOS/SDWebImageMapKit.framework
+$(SRCROOT)/Carthage/Build/iOS/SwiftyGif.framework
+
+#Animation
+$(SRCROOT)/Carthage/Build/iOS/Lottie.framework
+
+#UI
+$(SRCROOT)/Carthage/Build/iOS/XLPagerTabStrip.framework
