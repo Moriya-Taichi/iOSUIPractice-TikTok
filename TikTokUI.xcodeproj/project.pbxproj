@@ -99,6 +99,11 @@
 		8D392DDF23D318E70075285D /* TikTokUI */ = {
 			isa = PBXGroup;
 			children = (
+				8D392E1F23D31BEA0075285D /* Extensions */,
+				8D392E1E23D31BD40075285D /* Presentables */,
+				8D392E1D23D31BCB0075285D /* Coordinators */,
+				8D392E1123D3199F0075285D /* Reactor */,
+				8D392E1023D319710075285D /* UI */,
 				8D392DE023D318E70075285D /* AppDelegate.swift */,
 				8D392DE223D318E70075285D /* SceneDelegate.swift */,
 				8D392DE423D318E70075285D /* ViewController.swift */,
@@ -126,6 +131,121 @@
 				8D392E0423D318E90075285D /* Info.plist */,
 			);
 			path = TikTokUIUITests;
+			sourceTree = "<group>";
+		};
+		8D392E1023D319710075285D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8D392E1623D31AE80075285D /* Components */,
+				8D392E1523D31AD40075285D /* Storyboards */,
+				8D392E1323D31AA30075285D /* ViewControllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8D392E1123D3199F0075285D /* Reactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reactor;
+			sourceTree = "<group>";
+		};
+		8D392E1323D31AA30075285D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D392E1C23D31BB10075285D /* Feed */,
+				8D392E1B23D31B9F0075285D /* User */,
+				8D392E1A23D31B170075285D /* Message */,
+				8D392E1423D31AAA0075285D /* Trend */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8D392E1423D31AAA0075285D /* Trend */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Trend;
+			sourceTree = "<group>";
+		};
+		8D392E1523D31AD40075285D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8D392E1623D31AE80075285D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8D392E1923D31B0B0075285D /* CustomViews */,
+				8D392E1823D31B000075285D /* CollectionViewCells */,
+				8D392E1723D31AF10075285D /* TableViewCells */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8D392E1723D31AF10075285D /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		8D392E1823D31B000075285D /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		8D392E1923D31B0B0075285D /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		8D392E1A23D31B170075285D /* Message */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		8D392E1B23D31B9F0075285D /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		8D392E1C23D31BB10075285D /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		8D392E1D23D31BCB0075285D /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		8D392E1E23D31BD40075285D /* Presentables */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentables;
+			sourceTree = "<group>";
+		};
+		8D392E1F23D31BEA0075285D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
