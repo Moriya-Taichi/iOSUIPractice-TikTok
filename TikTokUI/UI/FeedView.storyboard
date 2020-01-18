@@ -14,7 +14,19 @@
                     <view key="view" contentMode="scaleToFill" id="cWp-u3-eeg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PUF-WS-kmF">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="NbK-i1-T1k" firstAttribute="trailing" secondItem="PUF-WS-kmF" secondAttribute="trailing" id="BSw-oy-Xlb"/>
+                            <constraint firstAttribute="bottom" secondItem="PUF-WS-kmF" secondAttribute="bottom" id="HFJ-pb-Y7k"/>
+                            <constraint firstItem="PUF-WS-kmF" firstAttribute="leading" secondItem="NbK-i1-T1k" secondAttribute="leading" id="LKW-Q6-F1R"/>
+                            <constraint firstItem="PUF-WS-kmF" firstAttribute="top" secondItem="cWp-u3-eeg" secondAttribute="top" id="XiV-yq-VFO"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="NbK-i1-T1k"/>
                     </view>
                 </viewController>
