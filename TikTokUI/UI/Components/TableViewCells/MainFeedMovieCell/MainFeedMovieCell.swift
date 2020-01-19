@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import RxSwift
+import RxCocoa
 import UIKit
 
 final class MainFeedMovieCell: UITableViewCell {
@@ -37,6 +39,7 @@ final class MainFeedMovieCell: UITableViewCell {
     }
 
     var callback: Callback?
+    var disposeBag = DisposeBag()
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -44,7 +47,25 @@ final class MainFeedMovieCell: UITableViewCell {
     }
 
     private func setupRx() {
+        userIconButton.rx.tap
+            .subscribe(onNext: {[weak self] _ in
+                self?.callback?.showUser("hoge")
+            }).disposed(by: disposeBag)
 
+        commentButton.rx.tap
+            .subscribe(onNext: {[weak self] _ in
+                self?.callback?.showComment("hoge")
+            }).disposed(by: disposeBag)
+
+        shareButton.rx.tap
+            .subscribe(onNext: {[weak self] _ in
+                self?.callback?.showShare("hoge")
+            }).disposed(by: disposeBag)
+
+        musicButton.rx.tap
+            .subscribe(onNext: {[weak self] _ in
+                self?.callback?.showSameMusic("hoge")
+            }).disposed(by: disposeBag)
     }
 
     func setCellContents() {
