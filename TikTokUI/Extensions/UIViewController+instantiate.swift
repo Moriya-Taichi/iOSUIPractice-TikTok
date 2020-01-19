@@ -11,6 +11,7 @@ import UIKit
 enum StoryboardName: String {
     case FeedTab = "FeedTabViewController"
     case Feed = "FeedViewController"
+    case PostContent = "PostContentViewController"
 }
 
 protocol StoryboardInstantiate {

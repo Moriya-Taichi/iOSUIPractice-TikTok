@@ -55,6 +55,7 @@
 		8DA4BB0C23D4598700051F70 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB0B23D4598700051F70 /* FeedViewController.swift */; };
 		8DA4BB0E23D45CD900051F70 /* UIViewController+instantiate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB0D23D45CD900051F70 /* UIViewController+instantiate.swift */; };
 		8DA4BB1123D49AD000051F70 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB1023D49AD000051F70 /* MainTabBarViewController.swift */; };
+		8DA4BB1423D4A2F800051F70 /* PostContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB1323D4A2F800051F70 /* PostContentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +146,7 @@
 		8DA4BB0B23D4598700051F70 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		8DA4BB0D23D45CD900051F70 /* UIViewController+instantiate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+instantiate.swift"; sourceTree = "<group>"; };
 		8DA4BB1023D49AD000051F70 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		8DA4BB1323D4A2F800051F70 /* PostContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostContentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,6 +269,7 @@
 		8D392E1323D31AA30075285D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8DA4BB1223D49F1100051F70 /* PostContent */,
 				8DA4BB0F23D49AB400051F70 /* Tab */,
 				8D392E1C23D31BB10075285D /* Feed */,
 				8D392E1B23D31B9F0075285D /* User */,
@@ -409,6 +412,14 @@
 				8DA4BB1023D49AD000051F70 /* MainTabBarViewController.swift */,
 			);
 			path = Tab;
+			sourceTree = "<group>";
+		};
+		8DA4BB1223D49F1100051F70 /* PostContent */ = {
+			isa = PBXGroup;
+			children = (
+				8DA4BB1323D4A2F800051F70 /* PostContentViewController.swift */,
+			);
+			path = PostContent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -571,6 +582,7 @@
 			files = (
 				8D392DE523D318E70075285D /* ViewController.swift in Sources */,
 				8DA4BB1123D49AD000051F70 /* MainTabBarViewController.swift in Sources */,
+				8DA4BB1423D4A2F800051F70 /* PostContentViewController.swift in Sources */,
 				8D392DE123D318E70075285D /* AppDelegate.swift in Sources */,
 				8DA4BB0A23D4597B00051F70 /* FeedTabViewController.swift in Sources */,
 				8DA4BB0E23D45CD900051F70 /* UIViewController+instantiate.swift in Sources */,
