@@ -15,9 +15,26 @@ final class FeedTabViewController: ButtonBarPagerTabStripViewController, Storybo
 
     static var storyboardName: StoryboardName = .FeedTab
 
+    var pages: [UIViewController] = [] //ReactorやVMに持たせたくないけどVarで外部から渡すのもキモいと思う
+    var disposeBag = DisposeBag()
+    var callback: Callback?
+
+    struct Callback {
+
+    }
+
     override func viewDidLoad() {
         setupPagerTabBar()
         super.viewDidLoad()
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.navigationBar.barTintColor = .clear
+    }
+
+    override  func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
+        return pages
     }
 
     private func setupPagerTabBar() {
