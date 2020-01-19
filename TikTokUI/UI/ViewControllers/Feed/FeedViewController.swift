@@ -7,3 +7,12 @@
 //
 
 import Foundation
+import UIKit
+
+final class FeedViewController: UIViewController, StoryboardInstantiate {
+    static var storyboardName: StoryboardName = .Feed
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}
