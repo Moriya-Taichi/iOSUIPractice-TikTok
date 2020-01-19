@@ -56,6 +56,8 @@
 		8DA4BB0E23D45CD900051F70 /* UIViewController+instantiate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB0D23D45CD900051F70 /* UIViewController+instantiate.swift */; };
 		8DA4BB1123D49AD000051F70 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB1023D49AD000051F70 /* MainTabBarViewController.swift */; };
 		8DA4BB1423D4A2F800051F70 /* PostContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB1323D4A2F800051F70 /* PostContentViewController.swift */; };
+		8DA4BB1723D4A5A300051F70 /* FeedTabViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB1623D4A5A300051F70 /* FeedTabViewReactor.swift */; };
+		8DA4BB1923D4A78900051F70 /* FeedViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB1823D4A78900051F70 /* FeedViewReactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,6 +149,8 @@
 		8DA4BB0D23D45CD900051F70 /* UIViewController+instantiate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+instantiate.swift"; sourceTree = "<group>"; };
 		8DA4BB1023D49AD000051F70 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		8DA4BB1323D4A2F800051F70 /* PostContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostContentViewController.swift; sourceTree = "<group>"; };
+		8DA4BB1623D4A5A300051F70 /* FeedTabViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTabViewReactor.swift; sourceTree = "<group>"; };
+		8DA4BB1823D4A78900051F70 /* FeedViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewReactor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +266,7 @@
 		8D392E1123D3199F0075285D /* Reactor */ = {
 			isa = PBXGroup;
 			children = (
+				8DA4BB1523D4A58800051F70 /* Feed */,
 			);
 			path = Reactor;
 			sourceTree = "<group>";
@@ -420,6 +425,15 @@
 				8DA4BB1323D4A2F800051F70 /* PostContentViewController.swift */,
 			);
 			path = PostContent;
+			sourceTree = "<group>";
+		};
+		8DA4BB1523D4A58800051F70 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				8DA4BB1623D4A5A300051F70 /* FeedTabViewReactor.swift */,
+				8DA4BB1823D4A78900051F70 /* FeedViewReactor.swift */,
+			);
+			path = Feed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -585,7 +599,9 @@
 				8DA4BB1423D4A2F800051F70 /* PostContentViewController.swift in Sources */,
 				8D392DE123D318E70075285D /* AppDelegate.swift in Sources */,
 				8DA4BB0A23D4597B00051F70 /* FeedTabViewController.swift in Sources */,
+				8DA4BB1723D4A5A300051F70 /* FeedTabViewReactor.swift in Sources */,
 				8DA4BB0E23D45CD900051F70 /* UIViewController+instantiate.swift in Sources */,
+				8DA4BB1923D4A78900051F70 /* FeedViewReactor.swift in Sources */,
 				8D392DE323D318E70075285D /* SceneDelegate.swift in Sources */,
 				8DA4BB0C23D4598700051F70 /* FeedViewController.swift in Sources */,
 				8D392E5F23D389350075285D /* MainFeedMovieCell.swift in Sources */,
