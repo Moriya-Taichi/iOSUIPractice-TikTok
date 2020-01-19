@@ -29,6 +29,15 @@ final class MainFeedMovieCell: UITableViewCell {
     @IBOutlet weak var commentCountLabel: UILabel!
     @IBOutlet weak var shareCountLabel: UILabel!
 
+    struct Callback {
+        let showUser: ((_ userIdentifier: String) -> Void)
+        let showComment: ((_ postIdentifier: String) -> Void)
+        let showShare: ((_ postIdentifier: String) -> Void)
+        let showSameMusic: ((_ musicIdentifier: String) -> Void)
+    }
+
+    var callback: Callback?
+
     override func awakeFromNib() {
         super.awakeFromNib()
         setupRx()
