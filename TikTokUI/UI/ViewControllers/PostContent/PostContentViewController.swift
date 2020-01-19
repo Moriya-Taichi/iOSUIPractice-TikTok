@@ -7,3 +7,13 @@
 //
 
 import Foundation
+import UIKit
+
+final class PostContentViewController: UIViewController, StoryboardInstantiate {
+
+    static var storyboardName: StoryboardName = .PostContent
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}
