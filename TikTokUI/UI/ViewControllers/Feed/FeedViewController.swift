@@ -13,6 +13,13 @@ import UIKit
 
 final class FeedViewController: UIViewController, StoryboardInstantiate {
 
+    @IBOutlet weak var tableView: UITableView! {
+        didSet {
+            tableView.register(UINib(nibName: "MainFeedMovieCell", bundle: nil),
+                               forCellReuseIdentifier: "MainFeedMovieCell")
+        }
+    }
+    
     static var storyboardName: StoryboardName = .Feed
     var callback: Callback?
     var disposeBag = DisposeBag()
@@ -30,7 +37,7 @@ final class FeedViewController: UIViewController, StoryboardInstantiate {
 }
 
 extension FeedViewController: StoryboardView {
-    func  bind(reactor: FeedViewReactor) {
-
+    func bind(reactor: FeedViewReactor) {
+        
     }
 }

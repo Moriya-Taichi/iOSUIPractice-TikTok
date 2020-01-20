@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Feed View Controller-->
         <scene sceneID="WYg-rh-NKV">
             <objects>
-                <viewController id="BMs-id-ZWq" sceneMemberID="viewController">
+                <viewController id="BMs-id-ZWq" customClass="FeedViewController" customModule="TikTokUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cWp-u3-eeg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,6 +29,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NbK-i1-T1k"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="PUF-WS-kmF" id="zTR-V0-yGr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yAi-LR-1kx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
