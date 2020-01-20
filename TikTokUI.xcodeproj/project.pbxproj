@@ -58,6 +58,10 @@
 		8DA4BB1423D4A2F800051F70 /* PostContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB1323D4A2F800051F70 /* PostContentViewController.swift */; };
 		8DA4BB1723D4A5A300051F70 /* FeedTabViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB1623D4A5A300051F70 /* FeedTabViewReactor.swift */; };
 		8DA4BB1923D4A78900051F70 /* FeedViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB1823D4A78900051F70 /* FeedViewReactor.swift */; };
+		8DA4BB1B23D4C0F600051F70 /* MainTabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB1A23D4C0F600051F70 /* MainTabBarCoordinator.swift */; };
+		8DA4BB1D23D4C10500051F70 /* UserPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB1C23D4C10500051F70 /* UserPresentable.swift */; };
+		8DA4BB2123D5EC4000051F70 /* TrendFeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4BB2023D5EC4000051F70 /* TrendFeedCell.xib */; };
+		8DA4BB2323D5EC4C00051F70 /* TrendFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB2223D5EC4C00051F70 /* TrendFeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +155,10 @@
 		8DA4BB1323D4A2F800051F70 /* PostContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostContentViewController.swift; sourceTree = "<group>"; };
 		8DA4BB1623D4A5A300051F70 /* FeedTabViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTabViewReactor.swift; sourceTree = "<group>"; };
 		8DA4BB1823D4A78900051F70 /* FeedViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewReactor.swift; sourceTree = "<group>"; };
+		8DA4BB1A23D4C0F600051F70 /* MainTabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarCoordinator.swift; sourceTree = "<group>"; };
+		8DA4BB1C23D4C10500051F70 /* UserPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresentable.swift; sourceTree = "<group>"; };
+		8DA4BB2023D5EC4000051F70 /* TrendFeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrendFeedCell.xib; sourceTree = "<group>"; };
+		8DA4BB2223D5EC4C00051F70 /* TrendFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendFeedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,6 +282,7 @@
 		8D392E1323D31AA30075285D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8DA4BB1E23D5EA8C00051F70 /* Search */,
 				8DA4BB1223D49F1100051F70 /* PostContent */,
 				8DA4BB0F23D49AB400051F70 /* Tab */,
 				8D392E1C23D31BB10075285D /* Feed */,
@@ -313,6 +322,7 @@
 		8D392E1723D31AF10075285D /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				8DA4BB1F23D5EC1F00051F70 /* TrendFeedCell */,
 				8D392E6023D3893F0075285D /* MainFeedMovieCell */,
 			);
 			path = TableViewCells;
@@ -358,6 +368,7 @@
 		8D392E1D23D31BCB0075285D /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
+				8DA4BB1A23D4C0F600051F70 /* MainTabBarCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -365,6 +376,7 @@
 		8D392E1E23D31BD40075285D /* Presentables */ = {
 			isa = PBXGroup;
 			children = (
+				8DA4BB1C23D4C10500051F70 /* UserPresentable.swift */,
 			);
 			path = Presentables;
 			sourceTree = "<group>";
@@ -434,6 +446,22 @@
 				8DA4BB1823D4A78900051F70 /* FeedViewReactor.swift */,
 			);
 			path = Feed;
+			sourceTree = "<group>";
+		};
+		8DA4BB1E23D5EA8C00051F70 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		8DA4BB1F23D5EC1F00051F70 /* TrendFeedCell */ = {
+			isa = PBXGroup;
+			children = (
+				8DA4BB2023D5EC4000051F70 /* TrendFeedCell.xib */,
+				8DA4BB2223D5EC4C00051F70 /* TrendFeedCell.swift */,
+			);
+			path = TrendFeedCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -542,6 +570,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DA4BB2123D5EC4000051F70 /* TrendFeedCell.xib in Resources */,
 				8D392E2323D355030075285D /* FeedTabView.storyboard in Resources */,
 				8D392E6223D389590075285D /* MainFeedMovieCell.xib in Resources */,
 				8D392DED23D318E90075285D /* LaunchScreen.storyboard in Resources */,
@@ -595,8 +624,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D392DE523D318E70075285D /* ViewController.swift in Sources */,
+				8DA4BB2323D5EC4C00051F70 /* TrendFeedCell.swift in Sources */,
 				8DA4BB1123D49AD000051F70 /* MainTabBarViewController.swift in Sources */,
 				8DA4BB1423D4A2F800051F70 /* PostContentViewController.swift in Sources */,
+				8DA4BB1B23D4C0F600051F70 /* MainTabBarCoordinator.swift in Sources */,
+				8DA4BB1D23D4C10500051F70 /* UserPresentable.swift in Sources */,
 				8D392DE123D318E70075285D /* AppDelegate.swift in Sources */,
 				8DA4BB0A23D4597B00051F70 /* FeedTabViewController.swift in Sources */,
 				8DA4BB1723D4A5A300051F70 /* FeedTabViewReactor.swift in Sources */,
