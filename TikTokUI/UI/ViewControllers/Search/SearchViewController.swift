@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import RxSwift
+import UIKit
+
+final class SearchViewController: UIViewController, StoryboardInstantiate {
+
+    static var storyboardName: StoryboardName = .Search
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}

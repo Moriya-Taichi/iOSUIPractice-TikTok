@@ -70,6 +70,7 @@
 		8DA4BB2F23D7438900051F70 /* SearchView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4BB2E23D7438900051F70 /* SearchView.storyboard */; };
 		8DA4BB3123D7445800051F70 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB3023D7445800051F70 /* UserViewController.swift */; };
 		8DA4BB3323D744F000051F70 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB3223D744F000051F70 /* MessageViewController.swift */; };
+		8DA4BB3523D746B700051F70 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB3423D746B700051F70 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -175,6 +176,7 @@
 		8DA4BB2E23D7438900051F70 /* SearchView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchView.storyboard; sourceTree = "<group>"; };
 		8DA4BB3023D7445800051F70 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		8DA4BB3223D744F000051F70 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		8DA4BB3423D746B700051F70 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -474,6 +476,7 @@
 		8DA4BB1E23D5EA8C00051F70 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				8DA4BB3423D746B700051F70 /* SearchViewController.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -664,6 +667,7 @@
 				8DA4BB0A23D4597B00051F70 /* FeedTabViewController.swift in Sources */,
 				8DA4BB1723D4A5A300051F70 /* FeedTabViewReactor.swift in Sources */,
 				8DA4BB0E23D45CD900051F70 /* UIViewController+instantiate.swift in Sources */,
+				8DA4BB3523D746B700051F70 /* SearchViewController.swift in Sources */,
 				8DA4BB1923D4A78900051F70 /* FeedViewReactor.swift in Sources */,
 				8DA4BB3323D744F000051F70 /* MessageViewController.swift in Sources */,
 				8D392DE323D318E70075285D /* SceneDelegate.swift in Sources */,
