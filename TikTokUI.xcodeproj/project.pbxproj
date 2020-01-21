@@ -62,6 +62,12 @@
 		8DA4BB1D23D4C10500051F70 /* UserPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB1C23D4C10500051F70 /* UserPresentable.swift */; };
 		8DA4BB2123D5EC4000051F70 /* TrendFeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4BB2023D5EC4000051F70 /* TrendFeedCell.xib */; };
 		8DA4BB2323D5EC4C00051F70 /* TrendFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB2223D5EC4C00051F70 /* TrendFeedCell.swift */; };
+		8DA4BB2523D6180B00051F70 /* TrendFeedCellReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB2423D6180B00051F70 /* TrendFeedCellReactor.swift */; };
+		8DA4BB2723D742BE00051F70 /* TrendView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4BB2623D742BE00051F70 /* TrendView.storyboard */; };
+		8DA4BB2923D742CB00051F70 /* MessageView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4BB2823D742CB00051F70 /* MessageView.storyboard */; };
+		8DA4BB2B23D7434400051F70 /* UserView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4BB2A23D7434400051F70 /* UserView.storyboard */; };
+		8DA4BB2D23D7435300051F70 /* PostContentsView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4BB2C23D7435300051F70 /* PostContentsView.storyboard */; };
+		8DA4BB2F23D7438900051F70 /* SearchView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4BB2E23D7438900051F70 /* SearchView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,6 +165,12 @@
 		8DA4BB1C23D4C10500051F70 /* UserPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresentable.swift; sourceTree = "<group>"; };
 		8DA4BB2023D5EC4000051F70 /* TrendFeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrendFeedCell.xib; sourceTree = "<group>"; };
 		8DA4BB2223D5EC4C00051F70 /* TrendFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendFeedCell.swift; sourceTree = "<group>"; };
+		8DA4BB2423D6180B00051F70 /* TrendFeedCellReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendFeedCellReactor.swift; sourceTree = "<group>"; };
+		8DA4BB2623D742BE00051F70 /* TrendView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TrendView.storyboard; sourceTree = "<group>"; };
+		8DA4BB2823D742CB00051F70 /* MessageView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MessageView.storyboard; sourceTree = "<group>"; };
+		8DA4BB2A23D7434400051F70 /* UserView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserView.storyboard; sourceTree = "<group>"; };
+		8DA4BB2C23D7435300051F70 /* PostContentsView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostContentsView.storyboard; sourceTree = "<group>"; };
+		8DA4BB2E23D7438900051F70 /* SearchView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,6 +317,11 @@
 			children = (
 				8D392E2023D32BE50075285D /* FeedView.storyboard */,
 				8D392E2223D355030075285D /* FeedTabView.storyboard */,
+				8DA4BB2623D742BE00051F70 /* TrendView.storyboard */,
+				8DA4BB2823D742CB00051F70 /* MessageView.storyboard */,
+				8DA4BB2A23D7434400051F70 /* UserView.storyboard */,
+				8DA4BB2C23D7435300051F70 /* PostContentsView.storyboard */,
+				8DA4BB2E23D7438900051F70 /* SearchView.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -460,6 +477,7 @@
 			children = (
 				8DA4BB2023D5EC4000051F70 /* TrendFeedCell.xib */,
 				8DA4BB2223D5EC4C00051F70 /* TrendFeedCell.swift */,
+				8DA4BB2423D6180B00051F70 /* TrendFeedCellReactor.swift */,
 			);
 			path = TrendFeedCell;
 			sourceTree = "<group>";
@@ -570,9 +588,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DA4BB2B23D7434400051F70 /* UserView.storyboard in Resources */,
+				8DA4BB2F23D7438900051F70 /* SearchView.storyboard in Resources */,
 				8DA4BB2123D5EC4000051F70 /* TrendFeedCell.xib in Resources */,
 				8D392E2323D355030075285D /* FeedTabView.storyboard in Resources */,
 				8D392E6223D389590075285D /* MainFeedMovieCell.xib in Resources */,
+				8DA4BB2923D742CB00051F70 /* MessageView.storyboard in Resources */,
+				8DA4BB2D23D7435300051F70 /* PostContentsView.storyboard in Resources */,
+				8DA4BB2723D742BE00051F70 /* TrendView.storyboard in Resources */,
 				8D392DED23D318E90075285D /* LaunchScreen.storyboard in Resources */,
 				8D392E2123D32BE50075285D /* FeedView.storyboard in Resources */,
 				8D392DEA23D318E90075285D /* Assets.xcassets in Resources */,
@@ -624,6 +647,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D392DE523D318E70075285D /* ViewController.swift in Sources */,
+				8DA4BB2523D6180B00051F70 /* TrendFeedCellReactor.swift in Sources */,
 				8DA4BB2323D5EC4C00051F70 /* TrendFeedCell.swift in Sources */,
 				8DA4BB1123D49AD000051F70 /* MainTabBarViewController.swift in Sources */,
 				8DA4BB1423D4A2F800051F70 /* PostContentViewController.swift in Sources */,
