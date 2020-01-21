@@ -71,6 +71,10 @@
 		8DA4BB3123D7445800051F70 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB3023D7445800051F70 /* UserViewController.swift */; };
 		8DA4BB3323D744F000051F70 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB3223D744F000051F70 /* MessageViewController.swift */; };
 		8DA4BB3523D746B700051F70 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB3423D746B700051F70 /* SearchViewController.swift */; };
+		8DA4BB3823D7658800051F70 /* SearchHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4BB3723D7658800051F70 /* SearchHeaderView.xib */; };
+		8DA4BB3A23D7696B00051F70 /* SearchHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB3923D7696B00051F70 /* SearchHeaderView.swift */; };
+		8DA4BB3C23D7698000051F70 /* SearchHeaderViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB3B23D7698000051F70 /* SearchHeaderViewReactor.swift */; };
+		8DA4BB3E23D76B8E00051F70 /* UIView+loadNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB3D23D76B8E00051F70 /* UIView+loadNib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -177,6 +181,10 @@
 		8DA4BB3023D7445800051F70 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		8DA4BB3223D744F000051F70 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		8DA4BB3423D746B700051F70 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		8DA4BB3723D7658800051F70 /* SearchHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchHeaderView.xib; sourceTree = "<group>"; };
+		8DA4BB3923D7696B00051F70 /* SearchHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHeaderView.swift; sourceTree = "<group>"; };
+		8DA4BB3B23D7698000051F70 /* SearchHeaderViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHeaderViewReactor.swift; sourceTree = "<group>"; };
+		8DA4BB3D23D76B8E00051F70 /* UIView+loadNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+loadNib.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -361,6 +369,7 @@
 		8D392E1923D31B0B0075285D /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				8DA4BB3623D7656C00051F70 /* SearchHeaderView */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -410,6 +419,7 @@
 			isa = PBXGroup;
 			children = (
 				8DA4BB0D23D45CD900051F70 /* UIViewController+instantiate.swift */,
+				8DA4BB3D23D76B8E00051F70 /* UIView+loadNib.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -489,6 +499,16 @@
 				8DA4BB2423D6180B00051F70 /* TrendFeedCellReactor.swift */,
 			);
 			path = TrendFeedCell;
+			sourceTree = "<group>";
+		};
+		8DA4BB3623D7656C00051F70 /* SearchHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				8DA4BB3723D7658800051F70 /* SearchHeaderView.xib */,
+				8DA4BB3923D7696B00051F70 /* SearchHeaderView.swift */,
+				8DA4BB3B23D7698000051F70 /* SearchHeaderViewReactor.swift */,
+			);
+			path = SearchHeaderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -606,6 +626,7 @@
 				8DA4BB2D23D7435300051F70 /* PostContentsView.storyboard in Resources */,
 				8DA4BB2723D742BE00051F70 /* TrendView.storyboard in Resources */,
 				8D392DED23D318E90075285D /* LaunchScreen.storyboard in Resources */,
+				8DA4BB3823D7658800051F70 /* SearchHeaderView.xib in Resources */,
 				8D392E2123D32BE50075285D /* FeedView.storyboard in Resources */,
 				8D392DEA23D318E90075285D /* Assets.xcassets in Resources */,
 				8D392DE823D318E70075285D /* Main.storyboard in Resources */,
@@ -655,10 +676,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DA4BB3E23D76B8E00051F70 /* UIView+loadNib.swift in Sources */,
 				8D392DE523D318E70075285D /* ViewController.swift in Sources */,
 				8DA4BB3123D7445800051F70 /* UserViewController.swift in Sources */,
 				8DA4BB2523D6180B00051F70 /* TrendFeedCellReactor.swift in Sources */,
 				8DA4BB2323D5EC4C00051F70 /* TrendFeedCell.swift in Sources */,
+				8DA4BB3A23D7696B00051F70 /* SearchHeaderView.swift in Sources */,
 				8DA4BB1123D49AD000051F70 /* MainTabBarViewController.swift in Sources */,
 				8DA4BB1423D4A2F800051F70 /* PostContentViewController.swift in Sources */,
 				8DA4BB1B23D4C0F600051F70 /* MainTabBarCoordinator.swift in Sources */,
@@ -668,6 +691,7 @@
 				8DA4BB1723D4A5A300051F70 /* FeedTabViewReactor.swift in Sources */,
 				8DA4BB0E23D45CD900051F70 /* UIViewController+instantiate.swift in Sources */,
 				8DA4BB3523D746B700051F70 /* SearchViewController.swift in Sources */,
+				8DA4BB3C23D7698000051F70 /* SearchHeaderViewReactor.swift in Sources */,
 				8DA4BB1923D4A78900051F70 /* FeedViewReactor.swift in Sources */,
 				8DA4BB3323D744F000051F70 /* MessageViewController.swift in Sources */,
 				8D392DE323D318E70075285D /* SceneDelegate.swift in Sources */,
