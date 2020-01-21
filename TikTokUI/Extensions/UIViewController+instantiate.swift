@@ -12,6 +12,7 @@ enum StoryboardName: String {
     case FeedTab = "FeedTabViewController"
     case Feed = "FeedViewController"
     case PostContent = "PostContentViewController"
+    case User = "UserViewController"
 }
 
 protocol StoryboardInstantiate {
