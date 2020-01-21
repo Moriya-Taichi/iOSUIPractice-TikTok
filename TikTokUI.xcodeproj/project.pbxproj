@@ -68,6 +68,8 @@
 		8DA4BB2B23D7434400051F70 /* UserView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4BB2A23D7434400051F70 /* UserView.storyboard */; };
 		8DA4BB2D23D7435300051F70 /* PostContentsView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4BB2C23D7435300051F70 /* PostContentsView.storyboard */; };
 		8DA4BB2F23D7438900051F70 /* SearchView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4BB2E23D7438900051F70 /* SearchView.storyboard */; };
+		8DA4BB3123D7445800051F70 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB3023D7445800051F70 /* UserViewController.swift */; };
+		8DA4BB3323D744F000051F70 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB3223D744F000051F70 /* MessageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -171,6 +173,8 @@
 		8DA4BB2A23D7434400051F70 /* UserView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserView.storyboard; sourceTree = "<group>"; };
 		8DA4BB2C23D7435300051F70 /* PostContentsView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostContentsView.storyboard; sourceTree = "<group>"; };
 		8DA4BB2E23D7438900051F70 /* SearchView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchView.storyboard; sourceTree = "<group>"; };
+		8DA4BB3023D7445800051F70 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		8DA4BB3223D744F000051F70 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -362,6 +366,7 @@
 		8D392E1A23D31B170075285D /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				8DA4BB3223D744F000051F70 /* MessageViewController.swift */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -369,6 +374,7 @@
 		8D392E1B23D31B9F0075285D /* User */ = {
 			isa = PBXGroup;
 			children = (
+				8DA4BB3023D7445800051F70 /* UserViewController.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -647,6 +653,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D392DE523D318E70075285D /* ViewController.swift in Sources */,
+				8DA4BB3123D7445800051F70 /* UserViewController.swift in Sources */,
 				8DA4BB2523D6180B00051F70 /* TrendFeedCellReactor.swift in Sources */,
 				8DA4BB2323D5EC4C00051F70 /* TrendFeedCell.swift in Sources */,
 				8DA4BB1123D49AD000051F70 /* MainTabBarViewController.swift in Sources */,
@@ -658,6 +665,7 @@
 				8DA4BB1723D4A5A300051F70 /* FeedTabViewReactor.swift in Sources */,
 				8DA4BB0E23D45CD900051F70 /* UIViewController+instantiate.swift in Sources */,
 				8DA4BB1923D4A78900051F70 /* FeedViewReactor.swift in Sources */,
+				8DA4BB3323D744F000051F70 /* MessageViewController.swift in Sources */,
 				8D392DE323D318E70075285D /* SceneDelegate.swift in Sources */,
 				8DA4BB0C23D4598700051F70 /* FeedViewController.swift in Sources */,
 				8D392E5F23D389350075285D /* MainFeedMovieCell.swift in Sources */,
