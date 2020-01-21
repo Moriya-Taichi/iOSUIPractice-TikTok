@@ -1,5 +1,5 @@
 //
-//  UserViewCOntroller.swift
+//  UserViewController.swift
 //  TikTokUI
 //
 //  Created by Mori on 2020/01/21.
@@ -7,3 +7,15 @@
 //
 
 import Foundation
+import RxSwift
+import UIKit
+
+final class UserViewController: UIViewController, StoryboardInstantiate {
+
+    static var storyboardName: StoryboardName = .User
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}
+
