@@ -6,4 +6,23 @@
 //  Copyright © 2020 Mori. All rights reserved.
 //
 
+import ReactorKit
 import Foundation
+import RxSwift
+
+final class TrendFeedCellReactor: Reactor {
+
+    var initialState: State
+
+    enum Action {
+        case load
+    }
+
+    struct State {
+
+    }
+
+    init() {
+        initialState = State()
+    }
+}
