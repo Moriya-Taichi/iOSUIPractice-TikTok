@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import RxSwift
+import UIKit
+
+final class MessageViewController: UIViewController, StoryboardInstantiate {
+
+    static var storyboardName: StoryboardName = .Message
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}
