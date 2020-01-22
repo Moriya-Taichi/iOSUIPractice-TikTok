@@ -9,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SearchHeaderView" customModule="TikTokUI" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="375" height="197"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -69,6 +69,14 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="met-f6-ZPs" id="Tk7-AU-90H"/>
+                <outlet property="openDescriptionLabelButton" destination="9ec-4u-qQy" id="9g0-tK-L9l"/>
+                <outlet property="searchTagImageView" destination="oNI-X7-G6G" id="vTZ-by-2GO"/>
+                <outlet property="searchTagLabel" destination="Bro-oC-nBr" id="r4O-yk-Y87"/>
+                <outlet property="searchTagWatchCountLabel" destination="eik-U7-xAm" id="LOV-ta-djd"/>
+                <outlet property="storeButton" destination="Dnt-JD-MGn" id="uyC-ik-ZKm"/>
+            </connections>
             <point key="canvasLocation" x="136.80000000000001" y="372.86356821589209"/>
         </view>
     </objects>
