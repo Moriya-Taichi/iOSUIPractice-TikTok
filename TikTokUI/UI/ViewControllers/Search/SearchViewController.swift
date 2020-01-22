@@ -14,6 +14,8 @@ final class SearchViewController: UIViewController, StoryboardInstantiate {
 
     static var storyboardName: StoryboardName = .Search
 
+    @IBOutlet weak var searchResultCollectionView: UICollectionView!
+    @IBOutlet weak var headerContainerView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
     }
