@@ -13,6 +13,13 @@ import UIKit
 
 final class SearchHeaderView: UIView {
 
+    @IBOutlet weak var searchTagImageView: UIImageView!
+    @IBOutlet weak var searchTagLabel: UILabel!
+    @IBOutlet weak var searchTagWatchCountLabel: UILabel!
+    @IBOutlet weak var storeButton: UIButton!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var openDescriptionLabelButton: UIButton!
+    
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         loadNib()
