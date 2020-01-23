@@ -75,6 +75,8 @@
 		8DA4BB3A23D7696B00051F70 /* SearchHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB3923D7696B00051F70 /* SearchHeaderView.swift */; };
 		8DA4BB3C23D7698000051F70 /* SearchHeaderViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB3B23D7698000051F70 /* SearchHeaderViewReactor.swift */; };
 		8DA4BB3E23D76B8E00051F70 /* UIView+loadNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB3D23D76B8E00051F70 /* UIView+loadNib.swift */; };
+		8DA4BB4023D9EA9A00051F70 /* UserFavoriteView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4BB3F23D9EA9A00051F70 /* UserFavoriteView.storyboard */; };
+		8DA4BB4223D9EAAA00051F70 /* UserPostView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4BB4123D9EAAA00051F70 /* UserPostView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,6 +187,8 @@
 		8DA4BB3923D7696B00051F70 /* SearchHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHeaderView.swift; sourceTree = "<group>"; };
 		8DA4BB3B23D7698000051F70 /* SearchHeaderViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHeaderViewReactor.swift; sourceTree = "<group>"; };
 		8DA4BB3D23D76B8E00051F70 /* UIView+loadNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+loadNib.swift"; sourceTree = "<group>"; };
+		8DA4BB3F23D9EA9A00051F70 /* UserFavoriteView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserFavoriteView.storyboard; sourceTree = "<group>"; };
+		8DA4BB4123D9EAAA00051F70 /* UserPostView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserPostView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -336,6 +340,8 @@
 				8DA4BB2A23D7434400051F70 /* UserView.storyboard */,
 				8DA4BB2C23D7435300051F70 /* PostContentsView.storyboard */,
 				8DA4BB2E23D7438900051F70 /* SearchView.storyboard */,
+				8DA4BB3F23D9EA9A00051F70 /* UserFavoriteView.storyboard */,
+				8DA4BB4123D9EAAA00051F70 /* UserPostView.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -628,7 +634,9 @@
 				8D392DED23D318E90075285D /* LaunchScreen.storyboard in Resources */,
 				8DA4BB3823D7658800051F70 /* SearchHeaderView.xib in Resources */,
 				8D392E2123D32BE50075285D /* FeedView.storyboard in Resources */,
+				8DA4BB4223D9EAAA00051F70 /* UserPostView.storyboard in Resources */,
 				8D392DEA23D318E90075285D /* Assets.xcassets in Resources */,
+				8DA4BB4023D9EA9A00051F70 /* UserFavoriteView.storyboard in Resources */,
 				8D392DE823D318E70075285D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
