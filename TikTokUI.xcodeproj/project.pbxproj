@@ -77,6 +77,8 @@
 		8DA4BB3E23D76B8E00051F70 /* UIView+loadNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB3D23D76B8E00051F70 /* UIView+loadNib.swift */; };
 		8DA4BB4023D9EA9A00051F70 /* UserFavoriteView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4BB3F23D9EA9A00051F70 /* UserFavoriteView.storyboard */; };
 		8DA4BB4223D9EAAA00051F70 /* UserPostView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4BB4123D9EAAA00051F70 /* UserPostView.storyboard */; };
+		8DA4BB4423D9EB7300051F70 /* UserPostVieewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB4323D9EB7300051F70 /* UserPostVieewController.swift */; };
+		8DA4BB4623D9EB7C00051F70 /* UserFavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB4523D9EB7C00051F70 /* UserFavoriteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -189,6 +191,8 @@
 		8DA4BB3D23D76B8E00051F70 /* UIView+loadNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+loadNib.swift"; sourceTree = "<group>"; };
 		8DA4BB3F23D9EA9A00051F70 /* UserFavoriteView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserFavoriteView.storyboard; sourceTree = "<group>"; };
 		8DA4BB4123D9EAAA00051F70 /* UserPostView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserPostView.storyboard; sourceTree = "<group>"; };
+		8DA4BB4323D9EB7300051F70 /* UserPostVieewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostVieewController.swift; sourceTree = "<group>"; };
+		8DA4BB4523D9EB7C00051F70 /* UserFavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFavoriteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -392,6 +396,8 @@
 			isa = PBXGroup;
 			children = (
 				8DA4BB3023D7445800051F70 /* UserViewController.swift */,
+				8DA4BB4323D9EB7300051F70 /* UserPostVieewController.swift */,
+				8DA4BB4523D9EB7C00051F70 /* UserFavoriteViewController.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -690,7 +696,9 @@
 				8DA4BB2523D6180B00051F70 /* TrendFeedCellReactor.swift in Sources */,
 				8DA4BB2323D5EC4C00051F70 /* TrendFeedCell.swift in Sources */,
 				8DA4BB3A23D7696B00051F70 /* SearchHeaderView.swift in Sources */,
+				8DA4BB4623D9EB7C00051F70 /* UserFavoriteViewController.swift in Sources */,
 				8DA4BB1123D49AD000051F70 /* MainTabBarViewController.swift in Sources */,
+				8DA4BB4423D9EB7300051F70 /* UserPostVieewController.swift in Sources */,
 				8DA4BB1423D4A2F800051F70 /* PostContentViewController.swift in Sources */,
 				8DA4BB1B23D4C0F600051F70 /* MainTabBarCoordinator.swift in Sources */,
 				8DA4BB1D23D4C10500051F70 /* UserPresentable.swift in Sources */,
