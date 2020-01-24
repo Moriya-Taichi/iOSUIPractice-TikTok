@@ -15,6 +15,7 @@ enum StoryboardName: String {
     case User = "UserViewController"
     case UserFavorite = "UserFavoriteViewController"
     case UserPost = "UserPostViewController"
+    case Trend = "TrendViewController"
     case Message = "MessageViewController"
     case Search = "SearchViewController"
 }
