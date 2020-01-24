@@ -79,6 +79,7 @@
 		8DA4BB4223D9EAAA00051F70 /* UserPostView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4BB4123D9EAAA00051F70 /* UserPostView.storyboard */; };
 		8DA4BB4423D9EB7300051F70 /* UserPostVieewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB4323D9EB7300051F70 /* UserPostVieewController.swift */; };
 		8DA4BB4623D9EB7C00051F70 /* UserFavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB4523D9EB7C00051F70 /* UserFavoriteViewController.swift */; };
+		8DA4BB4823DB371300051F70 /* TrendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB4723DB371300051F70 /* TrendViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -193,6 +194,7 @@
 		8DA4BB4123D9EAAA00051F70 /* UserPostView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserPostView.storyboard; sourceTree = "<group>"; };
 		8DA4BB4323D9EB7300051F70 /* UserPostVieewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostVieewController.swift; sourceTree = "<group>"; };
 		8DA4BB4523D9EB7C00051F70 /* UserFavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFavoriteViewController.swift; sourceTree = "<group>"; };
+		8DA4BB4723DB371300051F70 /* TrendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -330,6 +332,7 @@
 		8D392E1423D31AAA0075285D /* Trend */ = {
 			isa = PBXGroup;
 			children = (
+				8DA4BB4723DB371300051F70 /* TrendViewController.swift */,
 			);
 			path = Trend;
 			sourceTree = "<group>";
@@ -706,6 +709,7 @@
 				8DA4BB0A23D4597B00051F70 /* FeedTabViewController.swift in Sources */,
 				8DA4BB1723D4A5A300051F70 /* FeedTabViewReactor.swift in Sources */,
 				8DA4BB0E23D45CD900051F70 /* UIViewController+instantiate.swift in Sources */,
+				8DA4BB4823DB371300051F70 /* TrendViewController.swift in Sources */,
 				8DA4BB3523D746B700051F70 /* SearchViewController.swift in Sources */,
 				8DA4BB3C23D7698000051F70 /* SearchHeaderViewReactor.swift in Sources */,
 				8DA4BB1923D4A78900051F70 /* FeedViewReactor.swift in Sources */,
