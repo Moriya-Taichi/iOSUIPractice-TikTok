@@ -15,6 +15,8 @@ final class UserPostViewController: UIViewController, StoryboardInstantiate {
 
     static var storyboardName: StoryboardName = .UserPost
 
+    @IBOutlet weak var postedContentsCollectionView: UICollectionView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
