@@ -14,6 +14,7 @@ final class MessageViewController: UIViewController, StoryboardInstantiate {
 
     static var storyboardName: StoryboardName = .Message
 
+    @IBOutlet weak var messageTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
     }
