@@ -15,6 +15,8 @@ final class TrendViewController: UIViewController, StoryboardInstantiate {
 
     static var storyboardName: StoryboardName = .Trend
 
+    @IBOutlet weak var trendTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
