@@ -15,6 +15,7 @@ final class UserFavoriteViewController: UIViewController, StoryboardInstantiate 
 
     static var storyboardName: StoryboardName = .UserFavorite
     
+    @IBOutlet weak var favoriteCOntentsCollectionVIew: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
     }
