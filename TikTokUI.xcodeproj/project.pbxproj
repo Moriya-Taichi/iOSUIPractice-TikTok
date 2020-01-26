@@ -80,6 +80,10 @@
 		8DA4BB4423D9EB7300051F70 /* UserPostVieewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB4323D9EB7300051F70 /* UserPostVieewController.swift */; };
 		8DA4BB4623D9EB7C00051F70 /* UserFavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB4523D9EB7C00051F70 /* UserFavoriteViewController.swift */; };
 		8DA4BB4823DB371300051F70 /* TrendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB4723DB371300051F70 /* TrendViewController.swift */; };
+		8DA4BB4A23DCD3F800051F70 /* CoordinatorsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB4923DCD3F800051F70 /* CoordinatorsProtocol.swift */; };
+		8DA4BB4C23DD7AE200051F70 /* FeedCoodinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB4B23DD7AE200051F70 /* FeedCoodinator.swift */; };
+		8DA4BB4E23DD941200051F70 /* MessageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB4D23DD941200051F70 /* MessageCoordinator.swift */; };
+		8DA4BB5023DDA91C00051F70 /* UserCoodinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB4F23DDA91C00051F70 /* UserCoodinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -195,6 +199,10 @@
 		8DA4BB4323D9EB7300051F70 /* UserPostVieewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostVieewController.swift; sourceTree = "<group>"; };
 		8DA4BB4523D9EB7C00051F70 /* UserFavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFavoriteViewController.swift; sourceTree = "<group>"; };
 		8DA4BB4723DB371300051F70 /* TrendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendViewController.swift; sourceTree = "<group>"; };
+		8DA4BB4923DCD3F800051F70 /* CoordinatorsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorsProtocol.swift; sourceTree = "<group>"; };
+		8DA4BB4B23DD7AE200051F70 /* FeedCoodinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCoodinator.swift; sourceTree = "<group>"; };
+		8DA4BB4D23DD941200051F70 /* MessageCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCoordinator.swift; sourceTree = "<group>"; };
+		8DA4BB4F23DDA91C00051F70 /* UserCoodinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCoodinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -418,6 +426,10 @@
 			isa = PBXGroup;
 			children = (
 				8DA4BB1A23D4C0F600051F70 /* MainTabBarCoordinator.swift */,
+				8DA4BB4923DCD3F800051F70 /* CoordinatorsProtocol.swift */,
+				8DA4BB4B23DD7AE200051F70 /* FeedCoodinator.swift */,
+				8DA4BB4D23DD941200051F70 /* MessageCoordinator.swift */,
+				8DA4BB4F23DDA91C00051F70 /* UserCoodinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -706,15 +718,19 @@
 				8DA4BB1B23D4C0F600051F70 /* MainTabBarCoordinator.swift in Sources */,
 				8DA4BB1D23D4C10500051F70 /* UserPresentable.swift in Sources */,
 				8D392DE123D318E70075285D /* AppDelegate.swift in Sources */,
+				8DA4BB4A23DCD3F800051F70 /* CoordinatorsProtocol.swift in Sources */,
 				8DA4BB0A23D4597B00051F70 /* FeedTabViewController.swift in Sources */,
 				8DA4BB1723D4A5A300051F70 /* FeedTabViewReactor.swift in Sources */,
+				8DA4BB5023DDA91C00051F70 /* UserCoodinator.swift in Sources */,
 				8DA4BB0E23D45CD900051F70 /* UIViewController+instantiate.swift in Sources */,
 				8DA4BB4823DB371300051F70 /* TrendViewController.swift in Sources */,
 				8DA4BB3523D746B700051F70 /* SearchViewController.swift in Sources */,
 				8DA4BB3C23D7698000051F70 /* SearchHeaderViewReactor.swift in Sources */,
 				8DA4BB1923D4A78900051F70 /* FeedViewReactor.swift in Sources */,
+				8DA4BB4C23DD7AE200051F70 /* FeedCoodinator.swift in Sources */,
 				8DA4BB3323D744F000051F70 /* MessageViewController.swift in Sources */,
 				8D392DE323D318E70075285D /* SceneDelegate.swift in Sources */,
+				8DA4BB4E23DD941200051F70 /* MessageCoordinator.swift in Sources */,
 				8DA4BB0C23D4598700051F70 /* FeedViewController.swift in Sources */,
 				8D392E5F23D389350075285D /* MainFeedMovieCell.swift in Sources */,
 			);
