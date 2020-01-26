@@ -1,5 +1,5 @@
 //
-//  FeedCoodinator.swift
+//  FeedCoordinator.swift
 //  TikTokUI
 //
 //  Created by Mori on 2020/01/26.
@@ -10,7 +10,7 @@ import SwinjectAutoregistration
 import Swinject
 import UIKit
 
-final class FeedCoodinator: NavigationCoordinator {
+final class FeedCoordinator: NavigationCoordinator {
 
     let navigationController: UINavigationController
     let resolver: Resolver

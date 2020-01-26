@@ -10,7 +10,7 @@ import SwinjectAutoregistration
 import Swinject
 import UIKit
 
-final class MessageCoodinator: NavigationCoordinator {
+final class MessageCoordinator: NavigationCoordinator {
 
     var navigationController: UINavigationController
     let resolver: Resolver

@@ -1,5 +1,5 @@
 //
-//  UserCoodinator.swift
+//  UserCoordinator.swift
 //  TikTokUI
 //
 //  Created by Mori on 2020/01/26.
@@ -10,7 +10,7 @@ import SwinjectAutoregistration
 import Swinject
 import UIKit
 
-final class UserCoodinator: NavigationCoordinator {
+final class UserCoordinator: NavigationCoordinator {
 
     var navigationController: UINavigationController
     let resolver: Resolver
