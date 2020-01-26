@@ -84,7 +84,7 @@
 		8DA4BB4C23DD7AE200051F70 /* FeedCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB4B23DD7AE200051F70 /* FeedCoordinator.swift */; };
 		8DA4BB4E23DD941200051F70 /* MessageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB4D23DD941200051F70 /* MessageCoordinator.swift */; };
 		8DA4BB5023DDA91C00051F70 /* UserCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB4F23DDA91C00051F70 /* UserCoordinator.swift */; };
-		8DA4BB5223DDB41C00051F70 /* TresndCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB5123DDB41C00051F70 /* TresndCoordinator.swift */; };
+		8DA4BB5223DDB41C00051F70 /* TrendCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BB5123DDB41C00051F70 /* TrendCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -204,7 +204,7 @@
 		8DA4BB4B23DD7AE200051F70 /* FeedCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCoordinator.swift; sourceTree = "<group>"; };
 		8DA4BB4D23DD941200051F70 /* MessageCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCoordinator.swift; sourceTree = "<group>"; };
 		8DA4BB4F23DDA91C00051F70 /* UserCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCoordinator.swift; sourceTree = "<group>"; };
-		8DA4BB5123DDB41C00051F70 /* TresndCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TresndCoordinator.swift; sourceTree = "<group>"; };
+		8DA4BB5123DDB41C00051F70 /* TrendCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -432,7 +432,7 @@
 				8DA4BB4B23DD7AE200051F70 /* FeedCoordinator.swift */,
 				8DA4BB4D23DD941200051F70 /* MessageCoordinator.swift */,
 				8DA4BB4F23DDA91C00051F70 /* UserCoordinator.swift */,
-				8DA4BB5123DDB41C00051F70 /* TresndCoordinator.swift */,
+				8DA4BB5123DDB41C00051F70 /* TrendCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -722,7 +722,7 @@
 				8DA4BB1D23D4C10500051F70 /* UserPresentable.swift in Sources */,
 				8D392DE123D318E70075285D /* AppDelegate.swift in Sources */,
 				8DA4BB4A23DCD3F800051F70 /* CoordinatorsProtocol.swift in Sources */,
-				8DA4BB5223DDB41C00051F70 /* TresndCoordinator.swift in Sources */,
+				8DA4BB5223DDB41C00051F70 /* TrendCoordinator.swift in Sources */,
 				8DA4BB0A23D4597B00051F70 /* FeedTabViewController.swift in Sources */,
 				8DA4BB1723D4A5A300051F70 /* FeedTabViewReactor.swift in Sources */,
 				8DA4BB5023DDA91C00051F70 /* UserCoordinator.swift in Sources */,
